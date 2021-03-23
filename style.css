@@ -1,0 +1,37 @@
+*{
+    font-family: 'Comfortaa', cursive;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #242424;
+}
+
+#container{
+    display: grid;
+    grid-template: repeat(3, 200px) / repeat(3, 200px);
+    justify-content: center;
+    height: 773px;
+    align-content: center;
+}
+
+span{
+    display: flex;
+    align-items: center;
+    border: 5px solid white;
+    cursor: pointer;
+    color: white;
+    font-size: 70px;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    transition-duration: 0.4s;
+}
+
+span:hover{
+    color: #007acc;
+    border-color: #007acc;
+    border-width: 5px;
+    transition-duration: 0.4s;
+}
